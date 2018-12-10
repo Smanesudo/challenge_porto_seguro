@@ -2,6 +2,7 @@
 tp2 de machine learning  
 
 Plan :
+
 I.	Analyse exploratoire des données (NB5 + EDA)
   1)	Etude des données brutes
     •	Importation des données
