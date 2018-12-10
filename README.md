@@ -17,7 +17,7 @@ I.	Analyse exploratoire des données (NB5 + EDA)
 		
 II.	Préparation des données pour l'entraînement des classifieurs  (NB5)
 
-	1)	Suppression de features (celles ayant trop de valeurs manquantes et les features calc)
+	1)	Suppression de features (valeurs manquantes, binaires à très grande majorité de zéros et features calc)
 	2)	Encodage des données binaires et catégorielles (NB4)
 	3)	Centrage et réduction des variables continues (NB4)
 	4)	Matrice des features
