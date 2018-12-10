@@ -1,3 +1,7 @@
+tp2 de machine learning
+
+Plan :
+
 I.	Analyse exploratoire des données (NB5 + EDA)
 
 	1)	Etude des données brutes
@@ -13,7 +17,7 @@ I.	Analyse exploratoire des données (NB5 + EDA)
 		
 II.	Préparation des données pour l'entraînement des classifieurs  (NB5)
 
-	1)	Suppression de features (celle ayant trop de valeurs manquantes et les features calc)
+	1)	Suppression de features (celles ayant trop de valeurs manquantes et les features calc)
 	2)	Encodage des données binaires et catégorielles (NB4)
 	3)	Centrage et réduction des variables continues (NB4)
 	4)	Matrice des features
@@ -21,7 +25,7 @@ II.	Préparation des données pour l'entraînement des classifieurs  (NB5)
 
 III.	Entraînement et Tests
 
-	1)	Choix d'algo (Régression logistique par ex)
+	1)	Choix d'algo (Régression logistique par ex) et entraînement
 	2)	Cross-validation du niveau de pénalisation
 	3)	Comparaison d'autres classifieurs via les mesures d'erreur
 		•	Courbe ROC
