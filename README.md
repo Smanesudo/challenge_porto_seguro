@@ -1,6 +1,13 @@
 tp2 de machine learning
 
-Plan :
+Points à éclaircir 
+
+	- catégorisation des variables : selon le suffixe ou selon le type apparent (il y a des features "cat" qui sont binaires)
+	- tri des variables pour la corrélation
+	- ce qu'il faut faire exactement dans les parties III et IV
+	- quand/où traiter les données test (en même temps que les données train ou après ?)
+
+Plan
 
 I.	Analyse exploratoire des données (NB5 + EDA)
 
