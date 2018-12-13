@@ -3,9 +3,7 @@ tp2 de machine learning
 Points à éclaircir 
 
 	- catégorisation des variables : selon le suffixe ou selon le type apparent (il y a des features "cat" qui sont binaires)
-	- tri des variables pour la corrélation
-	- ce qu'il faut faire exactement dans les parties III et IV
-	- quand/où traiter les données test (en même temps que les données train ou après ?)
+
 
 Plan
 
@@ -32,13 +30,16 @@ II.	Préparation des données pour l'entraînement des classifieurs  (NB5)
 
 III.	Entraînement et Tests
 
-	1)	Choix d'algo (Régression logistique par ex) et entraînement
-	2)	Cross-validation du niveau de pénalisation
-	3)	Comparaison d'autres classifieurs via les mesures d'erreur
-		•	Courbe ROC
-		•	Courbe Precision-Recall
-		
-IV.	Sélection de features (par permutation)
-
-	1)	Création d'un classifieur Light GBM Random Forest
-	2)	Comparaisons
+	1)	Régression logistique
+		a)	Séparation en train et test
+		b)	Cross-validation du niveau de pénalisation
+		c)	Courbe ROC
+	
+	2)	Comparaison d'autres classifieurs via les mesures d'erreur
+		a)	Modèles
+		b)	Courbe ROC
+		c)	Courbe Precision-Recall
+	
+	3)	Feature Engineering
+		a)	Suppression des features avec variance très faible ou nulle
+		b)	Sélection de Features
