@@ -1,11 +1,7 @@
 tp2 de machine learning
 
-Points à éclaircir 
 
-	- catégorisation des variables : selon le suffixe ou selon le type apparent (il y a des features "cat" qui sont binaires)
-
-
-Plan
+PLAN A REVOIR
 
 I.	Analyse exploratoire des données (NB5 + EDA)
 
