@@ -2,7 +2,7 @@ tp2 de machine learning
 
 PLAN
 
-I.	Analyse exploratoire des données (NB5 + EDA)
+I.	Analyse exploratoire des données
 
 	1)	Etude des données brutes
 
@@ -12,21 +12,21 @@ I.	Analyse exploratoire des données (NB5 + EDA)
 		d)	Valeurs manquantes
 		e)	Distribution de la variable cible
 
-	2)	Visualisation pandas + seaborn du jeu de données (NB5)
-
+	2)	Visualisation pandas + seaborn du jeu de données
+	
 		a)	Corrélation des features ind, reg, car, calc 
 		b)	Distribution des features catégorielles
 		c)	Nombre de catégories
 		d)	Répartition des données binaires
 
-II.	Préparation des données pour l'entraînement des classifieurs  (NB5)
+II.	Préparation des données pour l'entraînement des classifieurs 
 
 	1)	Suppression de features
 	2)	Encodage des données catégorielles (NB4)
 	3)	Centrage et réduction des variables continues (NB4)
 
 
-III.	Entraînement et Tests des modèles
+III.	Entraînement et Tests des modèles de classification
 
 	1)	ACP (voir sous-partie 4))
 	
