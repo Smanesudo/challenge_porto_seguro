@@ -31,16 +31,19 @@ III.	Entraînement et Tests des modèles de classification
 	1)	ACP (voir sous-partie 4))
 	
 	2)	Régression logistique
+	
 		a)	Séparation en train et test
 		b)	Cross-validation du niveau de pénalisation
 		c)	Courbe ROC
 		
 	3)	Comparaison d'autres classifieurs via les mesures d'erreur
+	
 		a)	Modèles
 		b)	Courbe ROC
 		c)	Courbe Precision-Recall
 		
 	4)	Feature Engineering
+	
 		a)	Suppression des features avec variance très faible ou nulle (calculée via ACP, faire le lien avec le 1))
 		b)	Sélection de Features
 
